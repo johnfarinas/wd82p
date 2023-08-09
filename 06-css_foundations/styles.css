@@ -1,0 +1,49 @@
+body {
+
+  background-color: lightgray;
+  
+  }
+
+
+h1 {
+  color: #414141;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+h2 {
+  color: blue;
+  font-size: 28px;
+}
+
+h1, h2 {
+
+  font-family: Helvetica, sans-serif;
+
+}
+
+ul {
+
+  list-style-type: circle;
+
+}
+
+ol {
+
+  list-style-type: lower-roman;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+p {
+
+  text-align: left;
+}
+
+strong {
+  font-weight: 700;
+  font-style: italic;
+}
