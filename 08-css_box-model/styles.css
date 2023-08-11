@@ -1,0 +1,100 @@
+.synopsis {
+  color: #7E8184;
+  font-style: italic;
+}
+
+.synopsis em {
+  font-style: normal;
+  color: green;
+}
+
+.button {
+  color:rgb(81, 94, 94);
+  background-color: #5995da;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px, solid  #5995da;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+#button-1 {
+  background-color: #5995da;
+}
+
+.button:link, button:visited {
+  display: block;
+  text-decoration: none;
+  color: #7E8184;
+  background-color: aqua;
+  font-weight: bold;
+  text-align: center;
+  border: 2px;
+  border-radius: 20px auto;
+
+}
+
+.button:hover {
+  color: black;
+  background-color: blue;
+}
+
+.dangerous {
+  background-color: red;
+  color: aliceblue;
+}
+
+.dangerous:hover {
+  background-color: rgb(255, 0, 183);
+  color: #5995da;
+}
+
+.warning {
+  background-color: yellow;
+  color: black;
+  font-style: italic;
+}
+
+.warning:link,
+.warning:visited {
+  font-style: italic;
+  background-color: #5995da;
+}
+
+.warning:active,
+.warning:visited:active {
+background-color: #7E8184;
+}
+
+.page {
+  width: 600px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.subheading em{
+  color: red;
+}
+
+.kodego-website:link {
+  color: blue;
+  text-decoration: none;
+}
+
+.kodego-website:visited {
+  color: pink;
+  text-decoration: none;
+}
+
+.kodego-website:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+.kodego-website:active {
+  color: red
+}
