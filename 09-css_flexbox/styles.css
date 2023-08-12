@@ -69,4 +69,14 @@
   .third-item { order: -1;}
   .fourth-item { order: -2;}
   .last-item { order: -3;}
-  
+
+
+  /* FOOTER */
+
+  .footer { display: flex  ;}
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #d6e9fe;
+  height: 200px;
+  flex: 1;
+}
