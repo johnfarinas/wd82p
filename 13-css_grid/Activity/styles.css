@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  background-color: bisque;
+  display: grid;
+
+  grid-template-columns: 2fr 8fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr;
+
+}
