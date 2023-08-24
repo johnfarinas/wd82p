@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  height: 1200px;
+
+}
+
+/* .main-container {
+  width: fit-content;
+
+} */
+
+
+.myHeader {
+  display: grid;
+  justify-content: end;
+  background-image: url(img/tech-back1.jpg);
+  background-color: rgb(65, 43, 17);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  height: 1200px;
+  border: 1px solid black;
+ 
+}
+
+.myProfession {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  /* Add any other styles you need for the container */
+}
+
+.myProfession > img {
+  height: 30%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 100px;
+  height: 90px;
+
+}
+
+.nav-list {
+  display: flex;
+  color: antiquewhite;
+  font-size: 24px;
+  list-style-type: none;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.logo .logoText1,
+.logo .logoText2 {
+  font-size: 60px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo .logoText1 {
+  color: moccasin;
+}
+
+.logo .logoText2 {
+  color: chartreuse;
+}
+
+
