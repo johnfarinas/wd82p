@@ -1,0 +1,12 @@
+body {
+  background-color: whitesmoke;
+}
+h1,
+h2 {
+  color: deeppink;
+  font-family: "helvetica";
+}
+p {
+  color: gray;
+  font-family: "helvetica", "arial", sans-serif;
+}
