@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Javascript Objects</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="root">
+        <header class="header">
+            <h1>Library Webapp</h1>
+            <p>A simple library webapp built with HTML, CSS, and JavaScript.</p>
+        </header>
+
+        <hr />
+
+        <main class="main">
+
+            <div class="add-btn-container">
+                <button class="add-btn">+</button>
+            </div>
+        </main>
+    </div>
     <script src="main.js"></script>
-  </body>
+</body>
 </html>
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    height: 100dvh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 1em;
+}
