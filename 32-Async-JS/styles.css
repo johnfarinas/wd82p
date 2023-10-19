@@ -1,0 +1,10 @@
+.shopping-list {
+  display: flex;
+  gap: 1em;
+  list-style-type: none;
+}
+
+.shop-item {
+  background-color: antiquewhite;
+  padding: 1em;
+}
